@@ -28,7 +28,7 @@ def set_arguments():
     parser.add_argument('-o', '--options', choices=available_options,
             type=str, default='mk', help='''Available Options: ['mk': create files, 'ren': rename files, 'del': delete files]''')
     parser.add_argument('-l', '--lists', choices=available_lists, type=str, default='num',      
-            help='''Available Lists: ['frs': fruits, 'num': numbers from 1-10]''')
+            help='''Available Lists: ['frt': fruits, 'num': numbers from 1-10]''')
     parser.add_argument('-m', '--modes', choices=available_renames,
         type=str, default='num', help='''Available Rename Modes: ['num': numbers, 'uuid': uuid4]''')
 
